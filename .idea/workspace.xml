@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2d10a8c-c117-48b0-95ee-d07fa245a628" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.runfiles/.runfiles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/KresyInwentarzApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/AddInvoiceWindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/MainWindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/element/CreateProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/element/CreateProductCellFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/element/ViewProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/domain/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/domain/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/domain/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/persistence/BaseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/persistence/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/persistence/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/persistence/products/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/persistence/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/persistence/products/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/protocol/request/CreateInvoiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/protocol/request/CreateProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/protocol/request/CreateWarehouseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pl/vost/kresyinwentarzfx/AddInvoiceWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pl/vost/kresyinwentarzfx/main-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.run/compile.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.run/deploy.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.run/install.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/ApiloCredentials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/ApiloException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/ApiloManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/api/Apilo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/api/ApiloApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/api/ApiloApiUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/api/HeadersInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/addShipment/ShipmentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/addShipment/ShipmentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/attachment/AttachmentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/attachment/AttachmentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/carriers/Carrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/order/AddressCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/order/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/searchForOrder/SearchForOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/searchForOrder/SearchForOrderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/token/TokenRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/pl/nowekolory/apiloapi/model/token/TokenResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/resources/label.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/pl/nowekolory/apiloapi/MainTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;macierak&quot;,
+      &quot;fullname&quot;: &quot;Maciej Wojdyła&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/Axinf/nkmanagementservices/apilloapi.git&quot;,
+    &quot;second&quot;: &quot;ee5a6059-efc3-4ccf-8bc3-49d132676352&quot;
+  }
+}</component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pvxg5cWzrJRhmRjLdK0qeyMfPO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.KresyInwentarzApplication.executor": "Run",
+    "Maven.KresyInwentarzFX [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Macierak/Praca/KresyInwentarzFX/src/main/resources/pl/vost/kresyinwentarzfx",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Macierak\Praca\KresyInwentarzFX\src\main\resources\META-INF" />
+      <recent name="C:\Users\Macierak\Praca\KresyInwentarzFX\src\main\java\pl\vost\kresyinwentarzfx" />
+      <recent name="C:\Users\Macierak\Praca\KresyInwentarzFX\src\main\java\pl\vost\kresyinwentarzfx\persistence" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pl.vost.kresyinwentarzfx" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KresyInwentarzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.vost.kresyinwentarzfx.KresyInwentarzApplication" />
+      <module name="KresyInwentarzFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.vost.kresyinwentarzfx.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KresyInwentarzApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-corretto-21.0.1-4caba194b151-0837d75e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2d10a8c-c117-48b0-95ee-d07fa245a628" name="Changes" comment="" />
+      <created>1733660460547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733660460547</updated>
+      <workItem from="1733660461634" duration="9647000" />
+      <workItem from="1733679377050" duration="2985000" />
+      <workItem from="1733730434545" duration="59000" />
+      <workItem from="1733758242109" duration="5023000" />
+      <workItem from="1733769119087" duration="345000" />
+      <workItem from="1733769705332" duration="1415000" />
+      <workItem from="1733817654689" duration="21000" />
+      <workItem from="1734287400591" duration="1581000" />
+      <workItem from="1734288992066" duration="602000" />
+      <workItem from="1734289605197" duration="10456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/AddInvoiceWindowController.java</url>
+          <line>55</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/AddInvoiceWindowController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/domain/ProductService.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/vost/kresyinwentarzfx/controller/MainWindowController.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((HashMap)warehouseProductsMap).entrySet().toArray()[0]" custom="java.util.HashMap" />
+        <watch expression="this.getIndex()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
