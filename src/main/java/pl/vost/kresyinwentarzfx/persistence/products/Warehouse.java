@@ -12,7 +12,7 @@ import java.util.List;
 @Entity
 public class Warehouse{
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(generator = "ID_GENERATOR")
     @Column(name = "id", nullable = false)
     private Long id;
 

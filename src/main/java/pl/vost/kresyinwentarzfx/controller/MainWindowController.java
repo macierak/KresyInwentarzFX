@@ -101,6 +101,7 @@ public class MainWindowController{
             anchorPane.setPrefHeight(Region.USE_COMPUTED_SIZE);
             tab.setContent(anchorPane);
             final var tableView = new TableView<ViewProduct>();
+            tableView.setEditable(true);
             tableView.prefWidthProperty().bind(stage.widthProperty());
             tableView.setPrefHeight(Region.USE_COMPUTED_SIZE);
             anchorPane.getChildren().add(tableView);
@@ -135,7 +136,7 @@ public class MainWindowController{
             final var buttonCol = new TableColumn<ViewProduct, Void>("Akcje");
             buttonCol.setCellFactory(col -> new TableCell<>(){
                 // Create the buttons
-                private final Button decrementButton = new Button("Odejmij 1");
+                private final Button decrementButton = new Button("-1");
                 private final Button saveButton = new Button("Zapisz zmiany");
                 // Create a HBox to hold the buttons
                 private final HBox hbox = new HBox(decrementButton, saveButton);

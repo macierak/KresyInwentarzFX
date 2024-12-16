@@ -6,7 +6,6 @@ module pl.vost.kresyinwentarzfx {
     requires com.dlsc.formsfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires org.postgresql.jdbc;
     requires java.sql;
     requires jakarta.persistence;
     requires org.hibernate.orm.core;

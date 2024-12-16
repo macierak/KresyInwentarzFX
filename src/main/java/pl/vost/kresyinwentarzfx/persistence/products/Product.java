@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 @Entity
 public class Product{
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(generator = "ID_GENERATOR")
     @Column(name = "id", nullable = false)
     private Long id;
 
