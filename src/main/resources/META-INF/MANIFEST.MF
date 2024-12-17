@@ -1,3 +1,15 @@
 Manifest-Version: 1.0
 Main-Class: pl.vost.kresyinwentarzfx.KresyInwentarzApplication
+Class-Path: javafx-fxml-23-win.jar hibernate-core-6.6.3.Final.jar hibern
+ ate-commons-annotations-7.0.3.Final.jar jakarta.inject-api-2.0.1.jar my
+ sql-connector-j-9.1.0.jar jakarta.activation-api-2.1.0.jar javafx-fxml-
+ 23.jar antlr4-runtime-4.13.0.jar protobuf-java-4.26.1.jar jaxb-runtime-
+ 4.0.2.jar formsfx-core-11.6.0.jar byte-buddy-1.14.18.jar jakarta.persis
+ tence-api-3.2.0.jar jandex-3.2.0.jar jakarta.xml.bind-api-4.0.0.jar jav
+ afx-graphics-21-win.jar ikonli-javafx-12.3.1.jar jakarta.transaction-ap
+ i-2.0.1.jar javafx-base-21-win.jar javafx-controls-21-win.jar controlsf
+ x-11.1.2.jar ikonli-core-12.3.1.jar javafx-base-21.jar txw2-4.0.2.jar j
+ avafx-graphics-21.jar jaxb-core-4.0.2.jar javafx-controls-21.jar jboss-
+ logging-3.5.0.Final.jar istack-commons-runtime-4.1.1.jar classmate-1.5.
+ 1.jar angus-activation-2.0.0.jar bootstrapfx-core-0.4.0.jar
 
