@@ -5,21 +5,25 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" prefHeight="480" prefWidth="640" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.vost.kresyinwentarzfx.controller.AddInvoiceWindowController">
+<VBox alignment="CENTER" prefHeight="480" prefWidth="640" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="pl.vost.kresyinwentarzfx.controller.AddInvoiceWindowController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
     <AnchorPane prefHeight="464.0" prefWidth="665.0">
-        <Button layoutX="274.0" layoutY="393.0" mnemonicParsing="false" onAction="#addInvoice" text="Dodaj" />
-        <ListView fx:id="addProductsPane" editable="true" layoutY="159.0" prefHeight="214.0" prefWidth="600.0" />
+        <Button fx:id="sendButton" layoutX="274.0" layoutY="393.0" mnemonicParsing="false" onAction="#addInvoice"
+                text="Dodaj"/>
+        <ListView fx:id="addProductsPane" editable="true" layoutY="159.0" prefHeight="214.0" prefWidth="600.0"/>
 
         <Label layoutX="144.0" layoutY="28.0" text="Dodawanie nowej faktury">
             <font>
-                <Font size="28.0" />
+                <Font size="28.0"/>
             </font>
         </Label>
-        <TextField fx:id="invoiceNumber" layoutX="70.0" layoutY="97.0" promptText="Numer faktury" />
-        <DatePicker fx:id="invoiceDate" layoutX="371.0" layoutY="97.0" promptText="Data faktury" />
-        <Button layoutX="574.0" layoutY="134.0" mnemonicParsing="false" onAction="#addProduct" text="+" />
+        <TextField fx:id="invoiceNumber" layoutX="70.0" layoutY="97.0" promptText="Numer faktury"/>
+        <DatePicker fx:id="invoiceDate" layoutX="371.0" layoutY="97.0" promptText="Data faktury"/>
+        <Button layoutX="574.0" layoutY="134.0" mnemonicParsing="false" onAction="#addProduct"
+                text="+"/>
     </AnchorPane>
 </VBox>

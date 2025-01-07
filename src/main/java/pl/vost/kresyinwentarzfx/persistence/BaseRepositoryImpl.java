@@ -33,6 +33,12 @@ public class BaseRepositoryImpl<T>{
         entityManager.getTransaction().commit();
     }
 
+    public List<T> findByField(String fieldName, Object value){
+        return entityManager.createQuery("SELECT e FROM " + entityClass.getSimpleName() + " e WHERE e." + fieldName + " = :value", entityClass)
+                .setParameter("value", value)
+                .getResultList();
+    }
+
     public T findById(Long id){
         return entityManager.find(entityClass, id);
     }

@@ -24,7 +24,7 @@ public class KresyInwentarzApplication extends Application{
     public void start(Stage stage) throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(KresyInwentarzApplication.class.getResource("main-window.fxml"));
 
-        Scene scene = new Scene(fxmlLoader.load(), 750, 720);
+        Scene scene = new Scene(fxmlLoader.load(), 780, 600);
         stage.setTitle("KresyInwentarz");
         stage.setScene(scene);
         final MainWindowController controller = fxmlLoader.getController();

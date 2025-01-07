@@ -52,7 +52,11 @@ public class ProductService{
     }
 
     public void saveProduct(Product product){
-        final var productInRepo = productRepository.getProductByNameAndMag(product.getName(), product.getWarehouse());
+        if(Objects.isNull(product.getWarehouse().getId())){
+            return;
+        }
+        final var warehouse = warehouseService.getWarehouseById(product.getWarehouse().getId());
+        final var productInRepo = productRepository.getProductByNameAndMag(product.getName(), warehouse);
 
         if(Objects.isNull(productInRepo)){
             productRepository.save(product);

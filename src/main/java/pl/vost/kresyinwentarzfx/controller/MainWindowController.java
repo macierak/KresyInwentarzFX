@@ -5,12 +5,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.Spinner;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
@@ -52,10 +54,15 @@ public class MainWindowController{
     @FXML
     public TextField magCode;
 
+    @FXML
+    public TextArea errorOutputPane;
+
     public Stage stage;
 
     public void showAddInvoiceWindow() throws IOException{
-        final var addInvoiceWindow = new FXMLLoader(KresyInwentarzApplication.class.getResource("addInvoiceWindow.fxml"));
+        errorOutputPane.setText("");
+        final var addInvoiceWindow = new FXMLLoader(KresyInwentarzApplication.class.getResource("AddInvoiceWindow" +
+                ".fxml"));
         final var scene = new Scene(addInvoiceWindow.load(), 640, 480);
         final var stage = new Stage();
         stage.setTitle("Dodaj fakturę");
@@ -65,6 +72,10 @@ public class MainWindowController{
         stage.setResizable(false);
         stage.show();
 
+    }
+
+    public void appendError(String error){
+        errorOutputPane.setText(errorOutputPane.getText() + "\n" + error);
     }
 
     public void refreshTabs(){
@@ -111,6 +122,7 @@ public class MainWindowController{
             final var nameCol = new TableColumn<ViewProduct, String>("Nazwa");
             nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
             nameCol.setCellFactory(TextFieldTableCell.forTableColumn());  // Make column editable
+            nameCol.setMaxWidth(150);
             nameCol.setOnEditCommit(event ->
                     event.getRowValue().setName(event.getNewValue()));
 

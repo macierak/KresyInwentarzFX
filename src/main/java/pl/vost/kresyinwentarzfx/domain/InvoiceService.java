@@ -4,6 +4,8 @@ import pl.vost.kresyinwentarzfx.persistence.BaseRepositoryImpl;
 import pl.vost.kresyinwentarzfx.persistence.products.Invoice;
 import pl.vost.kresyinwentarzfx.protocol.request.CreateInvoiceRequest;
 
+import java.util.List;
+
 public class InvoiceService{
 
     private final BaseRepositoryImpl<Invoice> invoiceRepository;
@@ -14,6 +16,10 @@ public class InvoiceService{
 
     public Invoice getInvoiceById(Long id){
         return invoiceRepository.findById(id);
+    }
+
+    public List<Invoice> getInvoiceByNumber(String number){
+        return invoiceRepository.findByField("number", number);
     }
 
     public Invoice saveInvoice(CreateInvoiceRequest request){
