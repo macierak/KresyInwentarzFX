@@ -109,12 +109,14 @@ public class MainWindowController{
             tabList.add(tab);
             final var anchorPane = new AnchorPane();
             anchorPane.prefWidthProperty().bind(stage.widthProperty());
-            anchorPane.setPrefHeight(Region.USE_COMPUTED_SIZE);
+            anchorPane.prefHeightProperty().bind(stage.heightProperty());
+            //anchorPane.setPrefHeight(Region.USE_COMPUTED_SIZE);
             tab.setContent(anchorPane);
             final var tableView = new TableView<ViewProduct>();
             tableView.setEditable(true);
             tableView.prefWidthProperty().bind(stage.widthProperty());
-            tableView.setPrefHeight(Region.USE_COMPUTED_SIZE);
+            tableView.prefHeightProperty().bind(stage.heightProperty());
+            //tableView.setPrefHeight(Region.USE_COMPUTED_SIZE);
             anchorPane.getChildren().add(tableView);
             final var observableProducts = FXCollections.observableArrayList(mapToViewProduct(products));
             tableView.setItems(observableProducts);
@@ -130,6 +132,7 @@ public class MainWindowController{
             quantityCol.setCellValueFactory(new PropertyValueFactory<>("quantity"));
             quantityCol.setCellFactory(column -> createSpinnerCellInt());
             // column editable
+            quantityCol.setMaxWidth(100);
             quantityCol.setEditable(true);
             quantityCol.setOnEditCommit(event ->
                     event.getRowValue().setQuantity(event.getNewValue()));
@@ -138,6 +141,7 @@ public class MainWindowController{
             priceCol.setCellValueFactory(new PropertyValueFactory<>("price")); // Make column
             priceCol.setCellFactory(viewProductDoubleTableColumn -> createSpinnerCellDouble());
             // editable
+            priceCol.setMaxWidth(100);
             priceCol.setOnEditCommit(event ->
                     event.getRowValue().setPrice(event.getNewValue()));
 
